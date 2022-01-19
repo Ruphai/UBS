@@ -1,0 +1,28 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-01-15T21:34:04.900981",
+    "startedAt": "2022-01-15T21:33:58.757123",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9013",
+        "--control=9011",
+        "--hb=9010",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"0bd49373-1e03-42c6-ad6f-08cade32e6eb\"",
+        "--shell=9012",
+        "--transport=\"tcp\"",
+        "--iopub=9014",
+        "--f=C:\\Users\\rufai\\AppData\\Local\\Temp\\tmp-9284FVTlUx2kJ4rf.json"
+    ],
+    "state": "running",
+    "program": "Balogun_DeepLearningAssignment_2022.ipynb",
+    "host": "Rufai",
+    "username": "rufai",
+    "executable": "C:\\Users\\rufai\\anaconda3\\python.exe"
+}

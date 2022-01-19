@@ -1,0 +1,13 @@
+
+Validation sanity check: 0it [00:00, ?it/s]
+wandb: WARNING Serializing object of type DataFrame that is 640147 bytes
+  | Name     | Type     | Params
+--------------------------------------
+0 | net      | LeNet7   | 1.0 M
+1 | accuracy | Accuracy | 0
+--------------------------------------
+1.0 M     Trainable params
+0         Non-trainable params
+1.0 M     Total params
+
+Validation sanity check:   0%|          | 0/2 [00:00<?, ?it/s]

@@ -1,0 +1,127 @@
+wandb: WARNING Serializing object of type DataFrame that is 929061 bytes
+  | Name              | Type     | Params
+-----------------------------------------------
+0 | feature_extractor | ResNet   | 11.7 M
+1 | classifier        | Linear   | 2.0 K
+2 | train_accuracy    | Accuracy | 0
+3 | train_f1          | F1       | 0
+4 | val_accuracy      | Accuracy | 0
+5 | val_f1            | F1       | 0
+6 | val_fbeta         | FBeta    | 0
+7 | test_accuracy     | Accuracy | 0
+8 | test_f1           | F1       | 0
+9 | test_fbeta        | FBeta    | 0
+-----------------------------------------------
+2.0 K     Trainable params
+11.7 M    Non-trainable params
+11.7 M    Total params
+23.383    Total estimated model params size (MB)
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\callbacks\model_checkpoint.py:631: UserWarning: Checkpoint directory C:\Users\rufai\Downloads\assignment-instructions\assignment\best-model\OilPalmRes exists and is not empty.
+  rank_zero_warn(f"Checkpoint directory {dirpath} exists and is not empty.")
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+Epoch 0:   2%|▏         | 2/85 [00:00<00:36,  2.30it/s, loss=0.939, v_num=60bz, Train_loss_step=0.808]
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+
+Epoch 0:  74%|███████▍  | 63/85 [00:21<00:07,  2.98it/s, loss=0.314, v_num=60bz, Train_loss_step=0.212]
+
+
+Validating:  81%|████████  | 21/26 [00:05<00:01,  4.27it/s]
+
+
+
+
+
+
+
+
+Epoch 1:  72%|███████▏  | 61/85 [00:15<00:05,  4.02it/s, loss=0.249, v_num=60bz, Train_loss_step=0.197, Val_loss=0.306, Acc_val=0.894, Train_loss_epoch=0.455]
+
+
+
+Validating:  96%|█████████▌| 25/26 [00:06<00:00,  4.30it/s]
+
+
+
+
+
+
+
+
+Epoch 2:  71%|███████   | 60/85 [00:16<00:06,  3.73it/s, loss=0.234, v_num=60bz, Train_loss_step=0.379, Val_loss=0.266, Acc_val=0.909, Train_loss_epoch=0.255]
+
+
+
+Validating:  96%|█████████▌| 25/26 [00:05<00:00,  5.02it/s]
+
+
+
+
+
+
+
+
+Epoch 3:  74%|███████▍  | 63/85 [00:16<00:05,  3.78it/s, loss=0.249, v_num=60bz, Train_loss_step=0.158, Val_loss=0.254, Acc_val=0.912, Train_loss_epoch=0.236]
+
+
+
+Validating:  96%|█████████▌| 25/26 [00:06<00:00,  3.62it/s]
+
+
+
+
+
+
+
+
+
+Epoch 4:  74%|███████▍  | 63/85 [00:18<00:06,  3.47it/s, loss=0.206, v_num=60bz, Train_loss_step=0.199, Val_loss=0.247, Acc_val=0.912, Train_loss_epoch=0.231]
+
+
+
+Validating:  96%|█████████▌| 25/26 [00:06<00:00,  4.82it/s]
+
+
+
+
+
+
+
+
+Epoch 5:  71%|███████   | 60/85 [00:17<00:07,  3.51it/s, loss=0.209, v_num=60bz, Train_loss_step=0.156, Val_loss=0.236, Acc_val=0.916, Train_loss_epoch=0.220]
+
+
+
+Validating:  92%|█████████▏| 24/26 [00:05<00:00,  4.05it/s]
+Epoch 5, global step 353: Val_loss reached 0.23375 (best 0.23375), saving model to "C:\Users\rufai\Downloads\assignment-instructions\assignment\best-model\OilPalmRes\-epoch=05--val_loss=0.00-v1.ckpt" as top 5
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+wandb: WARNING Serializing object of type DataFrame that is 929061 bytes
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, test_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+Testing: 100%|██████████| 36/36 [00:09<00:00,  4.71it/s]\Test Accuracy: 0.0000, F1 Score: 0.0000FBeta Score: 0.0000
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'Acc_test': 0.9240451455116272,
+ 'Test_F1': 0.8033545613288879,
+ 'Test_FBeta': 0.8033545613288879}
+--------------------------------------------------------------------------------
+Testing: 100%|██████████| 36/36 [00:09<00:00,  3.80it/s]
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric Accuracy was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric F1 was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric FBeta was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)

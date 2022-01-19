@@ -1,0 +1,120 @@
+
+Epoch 0:   2%|▏         | 2/85 [00:00<00:30,  2.75it/s, loss=0.764, v_num=2zw2, Train_loss_step=0.758]
+wandb: WARNING Serializing object of type DataFrame that is 929061 bytes
+  | Name              | Type     | Params
+-----------------------------------------------
+0 | feature_extractor | ResNet   | 11.7 M
+1 | classifier        | Linear   | 2.0 K
+2 | train_accuracy    | Accuracy | 0
+3 | train_f1          | F1       | 0
+4 | val_accuracy      | Accuracy | 0
+5 | val_f1            | F1       | 0
+6 | val_fbeta         | FBeta    | 0
+7 | test_accuracy     | Accuracy | 0
+8 | test_f1           | F1       | 0
+9 | test_fbeta        | FBeta    | 0
+-----------------------------------------------
+2.0 K     Trainable params
+11.7 M    Non-trainable params
+11.7 M    Total params
+23.383    Total estimated model params size (MB)
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, val_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+Epoch 0:  75%|███████▌  | 64/85 [00:16<00:05,  3.84it/s, loss=0.276, v_num=2zw2, Train_loss_step=0.211]
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  71%|███████   | 60/85 [00:16<00:06,  3.58it/s, loss=0.234, v_num=2zw2, Train_loss_step=0.167, Val_loss=0.270, Acc_val=0.911, Train_loss_epoch=0.361]
+
+
+
+
+Epoch 2:   6%|▌         | 5/85 [00:01<00:26,  2.97it/s, loss=0.211, v_num=2zw2, Train_loss_step=0.104, Val_loss=0.240, Acc_val=0.921, Train_loss_epoch=0.242]
+
+
+
+
+
+
+Epoch 2:  71%|███████   | 60/85 [00:15<00:06,  3.89it/s, loss=0.236, v_num=2zw2, Train_loss_step=0.275, Val_loss=0.240, Acc_val=0.921, Train_loss_epoch=0.242]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  78%|███████▊  | 66/85 [00:17<00:05,  3.68it/s, loss=0.221, v_num=2zw2, Train_loss_step=0.0883, Val_loss=0.233, Acc_val=0.922, Train_loss_epoch=0.228]
+
+
+Validating:  81%|████████  | 21/26 [00:05<00:01,  3.97it/s]
+
+
+
+
+
+
+
+
+Epoch 4:  74%|███████▍  | 63/85 [00:17<00:05,  3.69it/s, loss=0.219, v_num=2zw2, Train_loss_step=0.205, Val_loss=0.229, Acc_val=0.924, Train_loss_epoch=0.217]
+
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 5:  74%|███████▍  | 63/85 [00:19<00:06,  3.29it/s, loss=0.249, v_num=2zw2, Train_loss_step=0.360, Val_loss=0.228, Acc_val=0.923, Train_loss_epoch=0.213]
+
+
+Validating:  81%|████████  | 21/26 [00:05<00:01,  3.78it/s]
+
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+wandb: WARNING Serializing object of type DataFrame that is 929061 bytes
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, test_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+
+
+
+Testing: 100%|██████████| 36/36 [00:10<00:00,  4.12it/s]\Test Accuracy: 0.0000, F1 Score: 0.0000FBeta Score: 0.0000
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'Acc_test': 0.9227430820465088,
+ 'Test_F1': 0.7816824913024902,
+ 'Test_FBeta': 0.7816824913024902}
+--------------------------------------------------------------------------------
+Testing: 100%|██████████| 36/36 [00:10<00:00,  3.33it/s]
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric Accuracy was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric F1 was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric FBeta was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)
