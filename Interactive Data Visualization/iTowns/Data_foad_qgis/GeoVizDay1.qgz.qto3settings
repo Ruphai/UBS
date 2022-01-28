@@ -1,0 +1,333 @@
+{
+  "LAYERS": [
+    {
+      "geomType": 3,
+      "layerId": "ZONE_VEGETATION_c101f335_1f76_45fb_b8f8_1f7902bf48a7",
+      "name": "ZONE_VEGETATION",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "BATI_INDIFFERENCIE_2161d754_0d52_44df_92d8_b43c75bc213f",
+      "name": "BATI_INDIFFERENCIE",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Extruded",
+        "comboBox_altitudeMode": "MNT_25M_asc_059a5daa_04a4_4ca4_86b3_0f5a6f85ea3b",
+        "fieldExpressionWidget_altitude": "\"HAUTEUR\"",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "101",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "20.2",
+          "type": 1
+        },
+        "styleWidget3": {
+          "comboData": 0,
+          "comboText": "(No Edge)",
+          "editText": "0",
+          "type": 7
+        },
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "BATI_INDUSTRIEL_35ae4ac1_eaee_4829_bca6_8f340f3c64e9",
+      "name": "BATI_INDUSTRIEL",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Extruded",
+        "comboBox_altitudeMode": "MNT_25M_asc_059a5daa_04a4_4ca4_86b3_0f5a6f85ea3b",
+        "fieldExpressionWidget_altitude": "\"HAUTEUR\"",
+        "labelHeightWidget": {
+          "comboData": 0,
+          "comboText": "Absolute",
+          "editText": "404",
+          "type": 6
+        },
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "comboData": null,
+          "comboText": "Expression",
+          "editText": "80.81",
+          "type": 1
+        },
+        "styleWidget3": {
+          "comboData": 0,
+          "comboText": "(No Edge)",
+          "editText": "0",
+          "type": 7
+        },
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "BATI_REMARQUABLE_9ee4b107_6753_4c57_ae94_97c0bc6a153b",
+      "name": "BATI_REMARQUABLE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "CIMETIERE_fb1237ae_f828_4db8_be88_dfbb6b47ecf3",
+      "name": "CIMETIERE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "TERRAIN_SPORT_462f92d2_6e72_451e_a48b_1ae11ebdcb57",
+      "name": "TERRAIN_SPORT",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "PISTE_AERODROME_ff28970e_a26a_4db5_877e_7fac8aca7a1d",
+      "name": "PISTE_AERODROME",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "RESERVOIR_26ad6053_af51_4783_8ce6_2ee0251a3dbc",
+      "name": "RESERVOIR",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "HYDRONYME_42f1917f_1159_4288_b6b9_bf1864450be4",
+      "name": "HYDRONYME",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "POINT_EAU_e25e4e4d_36b8_47ad_af47_5595a716db5b",
+      "name": "POINT_EAU",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "RESERVOIR_EAU_3b2a9aaa_c75e_432a_8440_fb4fdf343e30",
+      "name": "RESERVOIR_EAU",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "SURFACE_EAU_e3553375_c428_43ab_8b59_f5b72acdffdf",
+      "name": "SURFACE_EAU",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "TRONCON_COURS_EAU_d40f0b81_dff8_4e0d_87f9_b7a307146aa6",
+      "name": "TRONCON_COURS_EAU",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "ROUTE_PRIMAIRE_83433199_bbbd_4bbe_b0b1_a68e8d81555b",
+      "name": "ROUTE_PRIMAIRE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "ROUTE_SECONDAIRE_82afb3b1_6148_41fc_b3b8_45fc0c807934",
+      "name": "ROUTE_SECONDAIRE",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Visible": true,
+        "comboBox_Label": null,
+        "comboBox_ObjectType": "Line",
+        "comboBox_altitudeMode": null,
+        "fieldExpressionWidget_altitude": "0",
+        "labelHeightWidget": {},
+        "radioButton_IntersectingFeatures": true,
+        "radioButton_zValue": true,
+        "styleWidget0": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 2
+        },
+        "styleWidget1": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "",
+          "type": 5
+        },
+        "styleWidget2": {
+          "checkBox": false,
+          "type": 9
+        },
+        "styleWidget3": {},
+        "styleWidget4": {},
+        "styleWidget5": {}
+      },
+      "visible": true
+    },
+    {
+      "geomType": 2,
+      "layerId": "ROUTE_8c78feff_94f5_4e9b_bd7b_2cd6b10046f9",
+      "name": "ROUTE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "SURFACE_ACTIVITE_e36b0f0f_0c60_4149_b227_1c95d55656d7",
+      "name": "SURFACE_ACTIVITE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "COMMUNE_a5c9c535_80bd_4b51_be42_82e4c48328a5",
+      "name": "COMMUNE",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Extrait_72_Topo_24059086_1fb9_4ff0_8b42_62fd42a2865a",
+      "name": "Extrait_72_Topo",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MNT_Aspect_62e6acc1_ccc8_4114_955f_a32c371b5189",
+      "name": "MNT_Aspect",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MNT_Slope_9c09d3c9_786f_4b74_8f10_0daf29ae82d3",
+      "name": "MNT_Slope",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MNT_Hillshade_b70aac43_9ed9_4731_b716_cf507e4d2157",
+      "name": "MNT_Hillshade",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "MNT_25M_asc_059a5daa_04a4_4ca4_86b3_0f5a6f85ea3b",
+      "name": "MNT_25M_asc",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "BATI_INDIFFERENCIE_2161d754_0d52_44df_92d8_b43c75bc213f",
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "ZONE_VEGETATION_c101f335_1f76_45fb_b8f8_1f7902bf48a7",
+        "comboBox_TextureSize": 1024,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_EdgeColor": "0x000000",
+        "toolButton_SideColor": "0xccbbaa",
+        "toolButton_WireframeColor": "0x000000"
+      },
+      "visible": true
+    }
+  ]
+}

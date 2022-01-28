@@ -1,0 +1,71 @@
+
+================================================
+TITRE DU JEU DE DONNEES
+================================================
+
+Quartiers de la ville de Nantes
+
+================================================
+DESCRIPTION
+================================================
+Les données fournissent le découpage administratif de la ville de Nantes en 11 quartiers.
+L'emprise géographique des quartiers est donc disponible dans les formats KML et SHP. 
+Les quartiers sont les suivants : Centre-ville, Bellevue - Chantenay - Sainte Anne,
+Dervallières - Zola, Hauts Pavés - Saint Félix, Malakoff - Saint Donatien, Ile de Nantes,
+Breil - Barberie, Nantes Nord, Nantes Erdre, Doulon - Bottière et Nantes Sud.
+
+
+Thèmes 							: Urbanisme
+
+================================================
+INFORMATIONS TECHNIQUES
+================================================
+
+Date de dernière mise à jour    : 10/12/2014
+Fréquence de mise à jour 		: annuelle 
+
+Derniere mise à jour technique	:
+
+	Date : 10/12/2014
+	Nature de la modification : Mise en ligne des données
+	Description de la modification : 1ère publication
+
+================================================
+ATTRIBUTS
+================================================
+
+
+NOM    : Nom du quartier
+IDOBJ  : Identifiant du quartier
+LIBCOM : Nom de la commune
+CODCOM : Code de la commune
+ 
+
+================================================
+CONTACT
+================================================
+
+Pour toute demande d'information ou remarque, 
+merci de passer par le forum du site http://data.nantes.fr
+
+================================================
+INFORMATIONS LEGALES
+================================================
+
+
+Propriétaire : Nantes Métropole
+
+Gestionnaire : Nantes Métropole
+
+Diffuseur	 : Nantes Métropole
+
+Licence      : Open Database License (ODbL)
+
+================================================
+SIGNATURES DES FICHIERS
+================================================
+
+QUARTIERS_NANTES.dbf (md5) : 0a0d332c6e08f5df5994ccda4118410b
+QUARTIERS_NANTES.prj (md5) : f6d4872436dd3f0336bd65be52e7e522
+QUARTIERS_NANTES.shp (md5) : 617ccae3ee22f6ba2f57c803d265213f
+QUARTIERS_NANTES.shx (md5) : 07ada134b103a067ca79a4cdf0c360b3

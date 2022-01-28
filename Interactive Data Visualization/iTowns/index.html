@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>A quick planar display with iTowns</title>
+        <style>
+            html { height: 100%; }
+            body { margin: 0; overflow: hidden; height: 100%; }
+            #viewerDiv { margin: auto; height: 100%; width: 100%; padding: 0; }
+            canvas { display: block }
+        </style>
+    </head>
+
+    <!-- -->
+    
+    <body>
+        <div id="viewerDiv"></div>
+        <script src="js/itowns.js"></script>
+        <script type="text/javascript">
+            // Our code goes here
+            const viewerDiv = document.getElementById('viewerDiv');
+            itowns.proj4.defs(
+                'EPSG:3946',
+                '+proj=lcc +lat_1=45.25 +lat_2=46.75 +lat_0=46 +lon_0=3 +x_0=1700000 +y_0=5200000 +ellps=GRS80 ' +
+                '+towgs84=0,0,0,0,0,0,0 +units=m +no_defs',
+                );
+
+            const viewExtent = new itowns.Extent(
+                'EPSG:3946',
+                1837816.94334, 1847692.32501,
+                5170036.4587, 5178412.82698,
+                );
+
+            const placement = {
+                coord: viewExtent.center(),
+                tilt: 12,
+                heading: 40,
+                range: 6200,
+            }
+
+            const view = new itowns.PlanarView(viewerDiv, viewExtent, {
+                placement: placement,
+            });
+
+            const sourceOrtho = new itowns.WMSSource({
+                url: 'https://download.data.grandlyon.com/wms/grandlyon',
+                name: 'Ortho2009_vue_ensemble_16cm_CC46',
+                format: 'image/jpeg',
+                crs: 'EPSG:3946',
+                extent: viewExtent,
+            });
+            
+            const layerOrtho = new itowns.ColorLayer('Ortho', { source: sourceOrtho });
+            view.addLayer(layerOrtho);
+
+            const sourceDEM = new itowns.WMSSource({
+                url: 'https://download.data.grandlyon.com/wms/grandlyon',
+                name: 'MNT2018_Altitude_2m',
+                format: 'image/jpeg',
+                crs: 'EPSG:3946',
+                extent: viewExtent,
+            });
+            
+            const layerDEM = new itowns.ElevationLayer('DEM', {
+                source: sourceDEM,
+                useColorTextureElevation: true,
+                colorTextureElevationMinZ: 144,
+                colorTextureElevationMaxZ: 622,
+            });
+            view.addLayer(layerDEM);
+
+            // DISPLAY RIVER ON THE GROUND
+            const hydroSource = new itowns.FileSource({
+                url: 'https://raw.githubusercontent.com/iTowns/iTowns2-sample-data/master/lyon-hydro.geojson',
+                crs: 'EPSG:4326',
+                format: 'application/json',
+            });
+
+            const hydroStyle = new itowns.Style({
+                fill: {
+                    color: 'cyan',
+                    opacity: 0.5,
+                },
+                stroke: {
+                    color: 'cyan',
+                },
+            });
+           
+            const hydroLayer = new itowns.ColorLayer('hydro', {
+                source: hydroSource,
+                style: hydroStyle,
+            });
+
+            view.addLayer(hydroLayer);
+
+            // ADD ROAD LAYER
+            const roadSource = new itowns.FileSource({
+                url: 'https://raw.githubusercontent.com/iTowns/iTowns2-sample-data/master/lyon-roads.geojson',
+                crs: 'EPSG:4326',
+                format: 'application/json',
+            });
+            
+            const roadStyle = new itowns.Style({
+                stroke: {
+                    color: 'brown',
+                    width: 1.5,},
+                });
+                
+                const roadLayer = new itowns.ColorLayer('roads', {
+                    source: roadSource,
+                    style: roadStyle,
+                });
+                view.addLayer(roadLayer);
+
+
+            // DISPLAY CITY NAMES
+            const citySource = new itowns.WFSSource({
+                url: 'https://wxs.ign.fr/cartovecto/geoportail/wfs?',
+                typeName: 'BDCARTO_BDD_WLD_WGS84G:zone_habitat_mairie',
+                crs: 'EPSG:3946',
+            })
+
+            const cityStyle = new itowns.Style({
+                text: {
+                    field: '{toponyme}',
+                    color: 'white',
+                    transform: 'uppercase',
+                    size: 15,
+                    haloColor: 'rgba(20, 20, 20, 0.8)',
+                    haloWidth: 3,
+                },
+            });
+
+            const cityLayer = new itowns.LabelLayer('cities', {
+                source: citySource,
+                style: cityStyle,
+            });
+            
+            view.addLayer(cityLayer);
+            
+            // // ADD BUILDING DATA
+            const buildingsSource = new itowns.C3DTilesSource({
+                url: 'https://raw.githubusercontent.com/iTowns/iTowns2-sample-data/master/3DTiles/' +
+                'dataset-dl.liris.cnrs.fr/three-d-tiles-lyon-metropolis/Lyon_2015_TileSet/tileset.json',
+            });
+            
+            const buildingsLayer = new itowns.C3DTilesLayer('buildings', {
+                source: buildingsSource,
+            }, view);
+            
+            itowns.View.prototype.addLayer.call(view, buildingsLayer);
+
+            // ADD LIGHT EFFECTS
+            const directionalLight = new itowns.THREE.DirectionalLight(0xffffff, 1);
+            directionalLight.position.set(-0.9, 0.3, 1);
+            directionalLight.updateMatrixWorld();
+            view.scene.add(directionalLight);
+            
+            const ambiantLight = new itowns.THREE.AmbientLight(0xffffff, 0.2);
+            view.scene.add(ambiantLight);
+            
+
+            // ADD COLOR TO THE BUILDING DATASET
+
+            // ADD POINT CLLOUD TO LAYER
+            const pointCloudSource = new itowns.C3DTilesSource({
+                url: 'https://raw.githubusercontent.com/iTowns/iTowns2-sample-data/master/3DTiles/Point_Cloud_2015/tileset.json',
+            });
+
+            const pointCloudLayer = new itowns.C3DTilesLayer('point-cloud', {
+                source: pointCloudSource,
+                sseThreshold: 1,
+            },
+            view);
+            
+            itowns.View.prototype.addLayer.call(view, pointCloudLayer)
+        
+        </script>
+    </body>
+
+</html>
