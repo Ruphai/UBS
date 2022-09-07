@@ -1,6 +1,4 @@
 # untracked folders and files
-files/Computer_vision/
-files/CNL_scripts.zip
 files/
 # compiled sources
 *.com
@@ -27,7 +25,6 @@ files/
 *.hgt
 *.omd
 *.hdf5
-*/../*.hdf5
 *.b3dm
 *.pnts
 *.vrt
