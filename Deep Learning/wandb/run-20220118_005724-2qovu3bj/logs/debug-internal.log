@@ -1,0 +1,407 @@
+2022-01-18 00:57:26,567 INFO    MainThread:9428 [internal.py:wandb_internal():87] W&B internal server running at pid: 9428, started at: 2022-01-18 00:57:26.567783
+2022-01-18 00:57:26,567 INFO    WriterThread:9428 [datastore.py:open_for_write():77] open: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\run-2qovu3bj.wandb
+2022-01-18 00:57:26,567 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: check_version
+2022-01-18 00:57:26,581 DEBUG   SenderThread:9428 [sender.py:send():234] send: header
+2022-01-18 00:57:26,581 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: check_version
+2022-01-18 00:57:26,721 DEBUG   SenderThread:9428 [sender.py:send():234] send: run
+2022-01-18 00:57:26,721 INFO    SenderThread:9428 [sender.py:_maybe_setup_resume():484] checking resume status for None/Oil Palm Classification/2qovu3bj
+2022-01-18 00:57:27,216 INFO    SenderThread:9428 [dir_watcher.py:__init__():169] watching files in: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files
+2022-01-18 00:57:27,216 INFO    SenderThread:9428 [sender.py:_start_run_threads():804] run started: 2qovu3bj with start time 1642463844
+2022-01-18 00:57:27,216 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:57:27,216 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: run_start
+2022-01-18 00:57:27,216 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:57:28,232 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:57:29,923 DEBUG   HandlerThread:9428 [meta.py:__init__():40] meta init
+2022-01-18 00:57:29,923 DEBUG   HandlerThread:9428 [meta.py:__init__():54] meta init done
+2022-01-18 00:57:29,923 DEBUG   HandlerThread:9428 [meta.py:probe():214] probe
+2022-01-18 00:57:29,986 DEBUG   HandlerThread:9428 [git.py:repo():33] git repository is invalid
+2022-01-18 00:57:29,986 DEBUG   HandlerThread:9428 [meta.py:_save_pip():58] save pip
+2022-01-18 00:57:29,986 DEBUG   HandlerThread:9428 [meta.py:_save_pip():72] save pip done
+2022-01-18 00:57:29,986 DEBUG   HandlerThread:9428 [meta.py:_save_conda():79] save conda
+2022-01-18 00:57:30,254 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\requirements.txt
+2022-01-18 00:57:30,254 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\conda-environment.yaml
+2022-01-18 00:57:32,268 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:34,277 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:36,282 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:38,285 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:40,292 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:42,324 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:44,335 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:46,359 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:48,377 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:48,377 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\conda-environment.yaml
+2022-01-18 00:57:48,457 DEBUG   HandlerThread:9428 [meta.py:_save_conda():89] save conda done
+2022-01-18 00:57:48,457 DEBUG   HandlerThread:9428 [meta.py:probe():252] probe done
+2022-01-18 00:57:48,457 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:57:48,457 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: config
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:57:48,718 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:57:48,718 DEBUG   SenderThread:9428 [sender.py:send():234] send: files
+2022-01-18 00:57:48,718 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-metadata.json with policy now
+2022-01-18 00:57:49,378 INFO    Thread-15 :9428 [upload_job.py:push():137] Uploaded file C:\Users\rufai\AppData\Local\Temp\tmpkf_jvv8jwandb\3poi296c-wandb-metadata.json
+2022-01-18 00:57:49,393 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:57:49,393 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_created():217] file/dir created: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-metadata.json
+2022-01-18 00:57:50,395 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:52,239 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:57:52,239 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:57:52,417 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:54,419 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:54,669 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,669 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,669 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:57:54,685 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,685 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,685 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,685 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,685 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:57:54,685 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:57:54,685 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:57:54,828 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,828 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,828 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:57:54,843 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:57:54,843 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:57:54,843 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:57:54,843 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:57:55,426 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:57:56,434 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:58,458 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:57:58,459 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\config.yaml
+2022-01-18 00:58:00,470 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:01,522 DEBUG   SenderThread:9428 [sender.py:send():234] send: stats
+2022-01-18 00:58:02,498 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:04,515 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:06,186 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:06,186 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:06,186 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:58:06,187 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:58:06,188 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:58:06,188 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:58:06,531 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:06,532 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:58:07,469 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:58:07,470 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:58:08,542 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:10,561 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:12,578 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:14,600 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:16,622 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:17,307 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:17,308 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:17,308 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:58:17,309 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:58:17,310 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:58:17,311 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:58:17,460 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:17,460 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:17,460 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:58:17,460 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:58:17,460 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:58:17,460 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:58:17,634 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:58:18,643 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:20,658 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:22,674 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:22,736 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:58:22,736 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:58:24,682 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:26,547 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:26,547 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:26,548 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:58:26,549 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:58:26,549 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:58:26,550 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:58:26,700 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:26,701 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:58:28,709 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:28,709 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\config.yaml
+2022-01-18 00:58:30,720 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:32,733 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:34,759 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:35,161 DEBUG   SenderThread:9428 [sender.py:send():234] send: stats
+2022-01-18 00:58:36,784 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:37,976 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:58:37,976 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:58:38,803 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:39,905 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:39,905 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:39,905 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:58:39,905 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:58:39,910 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:58:39,910 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:58:40,065 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:40,065 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:40,065 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:58:40,065 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:58:40,070 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:58:40,070 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:58:40,806 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:40,806 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:58:42,829 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:44,856 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:46,296 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:46,297 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:58:46,297 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:58:46,299 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:58:46,299 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:58:46,300 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:58:46,879 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:46,880 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:58:48,908 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:50,929 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:52,931 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:53,233 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:58:53,233 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:58:54,942 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:56,952 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:58,975 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:58:58,975 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\config.yaml
+2022-01-18 00:59:00,990 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:01,889 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:01,890 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:01,890 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:01,890 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:01,890 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:01,890 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:01,998 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:02,058 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:02,058 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:02,058 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:02,058 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:02,058 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:02,058 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:03,002 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:03,002 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:05,017 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:05,552 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:05,552 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:05,552 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:05,552 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:05,552 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:05,568 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:06,027 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:07,031 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:08,490 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:59:08,490 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:59:08,800 DEBUG   SenderThread:9428 [sender.py:send():234] send: stats
+2022-01-18 00:59:09,040 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:11,065 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:13,089 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:15,108 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:17,131 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:19,138 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:21,147 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:23,164 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:23,767 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:59:23,767 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:59:24,086 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:24,086 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:24,086 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:24,087 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:24,088 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:24,089 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:24,168 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:24,276 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:24,277 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:24,277 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:24,278 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:24,278 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:24,279 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:25,177 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:25,177 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:25,729 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:25,730 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:25,730 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:25,732 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:25,733 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:25,734 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:26,187 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:27,196 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:29,212 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:29,212 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\config.yaml
+2022-01-18 00:59:31,242 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:33,260 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:35,271 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:37,288 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:38,997 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:59:38,998 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:59:39,219 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:39,219 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:39,219 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:39,219 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:39,219 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:39,219 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:39,313 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:39,313 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:41,322 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:42,492 DEBUG   SenderThread:9428 [sender.py:send():234] send: stats
+2022-01-18 00:59:43,344 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:45,371 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:46,556 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:46,556 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:46,556 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:46,572 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:46,572 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:46,572 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:46,751 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:46,751 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:46,751 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:46,751 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:46,751 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:46,754 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:46,784 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: pause
+2022-01-18 00:59:46,784 INFO    HandlerThread:9428 [handler.py:handle_request_pause():612] stopping system metrics thread
+2022-01-18 00:59:46,878 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: resume
+2022-01-18 00:59:46,878 INFO    HandlerThread:9428 [handler.py:handle_request_resume():603] starting system metrics thread
+2022-01-18 00:59:46,879 DEBUG   SenderThread:9428 [sender.py:send():234] send: stats
+2022-01-18 00:59:46,882 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:46,884 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:46,884 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:46,918 DEBUG   SenderThread:9428 [sender.py:send():234] send: config
+2022-01-18 00:59:47,386 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:47,386 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:49,406 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:51,411 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:53,431 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:54,226 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: stop_status
+2022-01-18 00:59:54,226 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: stop_status
+2022-01-18 00:59:55,455 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:57,372 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:57,372 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:57,372 WARNING SenderThread:9428 [sender.py:send_metric():897] Seen metric with glob (shouldnt happen)
+2022-01-18 00:59:57,373 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:57,373 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:57,373 DEBUG   SenderThread:9428 [sender.py:send():234] send: metric
+2022-01-18 00:59:57,373 DEBUG   SenderThread:9428 [sender.py:send():234] send: history
+2022-01-18 00:59:57,373 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:57,373 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:57,468 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:57,468 INFO    Thread-12 :9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:57,993 DEBUG   SenderThread:9428 [sender.py:send():234] send: telemetry
+2022-01-18 00:59:57,993 DEBUG   SenderThread:9428 [sender.py:send():234] send: exit
+2022-01-18 00:59:57,993 INFO    SenderThread:9428 [sender.py:send_exit():366] handling exit code: 0
+2022-01-18 00:59:57,993 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:57,993 INFO    SenderThread:9428 [sender.py:send_exit():368] handling runtime: 150
+2022-01-18 00:59:57,993 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:57,993 INFO    SenderThread:9428 [sender.py:send_exit():374] send defer
+2022-01-18 00:59:57,993 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:57,993 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:57,993 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 0
+2022-01-18 00:59:57,993 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:57,993 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 0
+2022-01-18 00:59:57,993 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 1
+2022-01-18 00:59:57,993 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:57,993 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 1
+2022-01-18 00:59:58,107 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:58,107 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 1
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 2
+2022-01-18 00:59:58,107 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:58,107 DEBUG   SenderThread:9428 [sender.py:send():234] send: stats
+2022-01-18 00:59:58,107 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:58,107 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 2
+2022-01-18 00:59:58,107 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 2
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 3
+2022-01-18 00:59:58,107 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:58,107 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 3
+2022-01-18 00:59:58,107 DEBUG   SenderThread:9428 [sender.py:send():234] send: summary
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:_save_file():939] saving file wandb-summary.json with policy end
+2022-01-18 00:59:58,107 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 3
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 4
+2022-01-18 00:59:58,107 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:58,107 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 4
+2022-01-18 00:59:58,107 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:58,107 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 4
+2022-01-18 00:59:58,217 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:58,389 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 5
+2022-01-18 00:59:58,389 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:58,389 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:58,389 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 5
+2022-01-18 00:59:58,389 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:58,389 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 5
+2022-01-18 00:59:58,389 INFO    SenderThread:9428 [dir_watcher.py:finish():283] shutting down directory watcher
+2022-01-18 00:59:58,497 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\config.yaml
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:_on_file_modified():230] file/dir modified: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:finish():313] scan: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:finish():327] scan save: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\conda-environment.yaml conda-environment.yaml
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:finish():327] scan save: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\config.yaml config.yaml
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:finish():327] scan save: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log output.log
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:finish():327] scan save: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\requirements.txt requirements.txt
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:finish():327] scan save: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-metadata.json wandb-metadata.json
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [dir_watcher.py:finish():327] scan save: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json wandb-summary.json
+2022-01-18 00:59:58,497 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 6
+2022-01-18 00:59:58,497 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:58,512 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:58,512 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 6
+2022-01-18 00:59:58,512 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:58,512 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 6
+2022-01-18 00:59:58,512 INFO    SenderThread:9428 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-18 00:59:58,603 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:58,604 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:58,712 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:58,714 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:58,820 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:58,820 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:58,928 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:58,928 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:59,034 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:59,035 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:59,134 INFO    Thread-17 :9428 [upload_job.py:push():137] Uploaded file c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\conda-environment.yaml
+2022-01-18 00:59:59,140 INFO    Thread-18 :9428 [upload_job.py:push():137] Uploaded file c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\config.yaml
+2022-01-18 00:59:59,145 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:59,146 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:59,168 INFO    Thread-19 :9428 [upload_job.py:push():137] Uploaded file c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\output.log
+2022-01-18 00:59:59,169 INFO    Thread-20 :9428 [upload_job.py:push():137] Uploaded file c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\requirements.txt
+2022-01-18 00:59:59,176 INFO    Thread-21 :9428 [upload_job.py:push():137] Uploaded file c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\files\wandb-summary.json
+2022-01-18 00:59:59,253 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:59,253 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:59,363 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 00:59:59,363 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 00:59:59,393 INFO    Thread-11 :9428 [sender.py:transition_state():387] send defer: 7
+2022-01-18 00:59:59,394 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 00:59:59,394 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 7
+2022-01-18 00:59:59,394 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 00:59:59,394 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 7
+2022-01-18 00:59:59,469 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 01:00:00,045 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 8
+2022-01-18 01:00:00,045 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 01:00:00,046 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 01:00:00,046 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 8
+2022-01-18 01:00:00,046 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 01:00:00,046 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 8
+2022-01-18 01:00:00,046 INFO    SenderThread:9428 [sender.py:transition_state():387] send defer: 9
+2022-01-18 01:00:00,047 DEBUG   SenderThread:9428 [sender.py:send():234] send: final
+2022-01-18 01:00:00,047 DEBUG   SenderThread:9428 [sender.py:send():234] send: footer
+2022-01-18 01:00:00,047 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: defer
+2022-01-18 01:00:00,047 INFO    HandlerThread:9428 [handler.py:handle_request_defer():147] handle defer: 9
+2022-01-18 01:00:00,047 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: defer
+2022-01-18 01:00:00,047 INFO    SenderThread:9428 [sender.py:send_request_defer():383] handle sender defer: 9
+2022-01-18 01:00:00,151 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: poll_exit
+2022-01-18 01:00:00,151 DEBUG   SenderThread:9428 [sender.py:send_request():248] send_request: poll_exit
+2022-01-18 01:00:00,151 INFO    SenderThread:9428 [file_pusher.py:join():182] waiting for file pusher
+2022-01-18 01:00:00,552 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: get_summary
+2022-01-18 01:00:00,555 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: sampled_history
+2022-01-18 01:00:00,560 DEBUG   HandlerThread:9428 [handler.py:handle_request():130] handle_request: shutdown
+2022-01-18 01:00:00,560 INFO    HandlerThread:9428 [handler.py:finish():731] shutting down handler
+2022-01-18 01:00:01,051 INFO    WriterThread:9428 [datastore.py:close():281] close: c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_005724-2qovu3bj\run-2qovu3bj.wandb
+2022-01-18 01:00:01,556 INFO    SenderThread:9428 [sender.py:finish():1070] shutting down sender
+2022-01-18 01:00:01,556 INFO    SenderThread:9428 [file_pusher.py:finish():177] shutting down file pusher
+2022-01-18 01:00:01,556 INFO    SenderThread:9428 [file_pusher.py:join():182] waiting for file pusher
+2022-01-18 01:00:01,559 INFO    MainThread:9428 [internal.py:handle_exit():77] Internal process exited

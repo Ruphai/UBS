@@ -1,0 +1,109 @@
+
+Epoch 0:   2%|▏         | 2/85 [00:01<00:46,  1.80it/s, loss=0.695, v_num=lze2, Train_loss_step=0.692]
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, train_dataloader, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+
+
+
+
+
+
+
+
+Epoch 0:  72%|███████▏  | 61/85 [00:18<00:07,  3.22it/s, loss=0.628, v_num=lze2, Train_loss_step=0.615]
+
+
+
+
+
+
+
+
+
+
+
+
+Epoch 1:  73%|███████▎  | 62/85 [00:18<00:06,  3.34it/s, loss=0.57, v_num=lze2, Train_loss_step=0.762, Val_loss=0.576, Acc_val=0.723, Train_loss_epoch=0.658]
+
+
+Validating:  92%|█████████▏| 24/26 [00:04<00:00,  5.11it/s]
+
+
+
+
+
+
+
+
+
+Epoch 2:  71%|███████   | 60/85 [00:17<00:07,  3.34it/s, loss=0.569, v_num=lze2, Train_loss_step=0.524, Val_loss=0.517, Acc_val=0.758, Train_loss_epoch=0.587]
+
+
+Validating:  85%|████████▍ | 22/26 [00:04<00:00,  4.98it/s]
+
+
+
+
+
+
+
+
+
+
+Epoch 3:  71%|███████   | 60/85 [00:20<00:08,  2.97it/s, loss=0.502, v_num=lze2, Train_loss_step=0.452, Val_loss=0.534, Acc_val=0.766, Train_loss_epoch=0.585]
+
+
+
+Validating: 100%|██████████| 26/26 [00:05<00:00,  6.99it/s]
+
+
+
+
+
+
+
+
+
+
+Epoch 4:  80%|████████  | 68/85 [00:21<00:05,  3.22it/s, loss=0.471, v_num=lze2, Train_loss_step=0.349, Val_loss=0.442, Acc_val=0.810, Train_loss_epoch=0.513]
+
+
+Validating: 100%|██████████| 26/26 [00:05<00:00,  7.43it/s]
+
+
+
+
+
+
+
+
+
+
+Epoch 5:  75%|███████▌  | 64/85 [00:21<00:06,  3.02it/s, loss=0.464, v_num=lze2, Train_loss_step=0.514, Val_loss=0.417, Acc_val=0.833, Train_loss_epoch=0.488]
+
+
+Validating:  88%|████████▊ | 23/26 [00:05<00:00,  4.47it/s]
+
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\core\datamodule.py:469: LightningDeprecationWarning: DataModule.setup has already been called, so it will not be called again. In v1.6 this behavior will change to always call DataModule.setup.
+  rank_zero_deprecation(
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:655: UserWarning: Your `test_dataloader` has `shuffle=True`, it is strongly recommended that you turn this off for val/test/predict dataloaders.
+  rank_zero_warn(
+C:\Users\rufai\anaconda3\lib\site-packages\pytorch_lightning\trainer\data_loading.py:132: UserWarning: The dataloader, test_dataloader 0, does not have many workers which may be a bottleneck. Consider increasing the value of the `num_workers` argument` (try 12 which is the number of cpus on this machine) in the `DataLoader` init to improve performance.
+  rank_zero_warn(
+
+
+
+Testing:  97%|█████████▋| 35/36 [00:07<00:00,  4.82it/s]\Test Accuracy: 0.0000, F1 Score: 0.0000FBeta Score: 0.0000
+--------------------------------------------------------------------------------
+DATALOADER:0 TEST RESULTS
+{'Acc_test': 0.8103298544883728,
+ 'Test_F1': 0.8093520998954773,
+ 'Test_FBeta': 0.8093520998954773}
+--------------------------------------------------------------------------------
+Testing: 100%|██████████| 36/36 [00:07<00:00,  4.68it/s]
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric Accuracy was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric F1 was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)
+C:\Users\rufai\anaconda3\lib\site-packages\torchmetrics\utilities\prints.py:36: UserWarning: The ``compute`` method of metric FBeta was called before the ``update`` method which may lead to errors, as metric states have not yet been updated.
+  warnings.warn(*args, **kwargs)

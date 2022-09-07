@@ -1,0 +1,25 @@
+!table
+!version 450
+!charset WindowsLatin1
+
+Definition Table
+  Type NATIVE Charset "WindowsLatin1"
+  Fields 18
+    ID_SI_EXT Char (50) ;
+    NOM_SI_EXT Char (50) ;
+    VER_SI_EXT Char (10) ;
+    CODE_INSEE Char (5) ;
+    NOM_COM Char (80) ;
+    ANNEE_COG Char (4) ;
+    HAB_PERM Integer ;
+    HAB_SAISON Integer ;
+    TX_HAB_SAI Integer ;
+    DATENTREE Date ;
+    DATSORTIE Date ;
+    GB_IDUSER Char (16) ;
+    GB_DDMOD Date ;
+    GB_DATVER Date ;
+    GB_VERROU Char (16) ;
+    PHOTO Char (254) ;
+    WEB Char (254) ;
+    spjoin_rif Integer ;

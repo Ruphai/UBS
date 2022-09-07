@@ -1,0 +1,271 @@
+2022-01-18 01:00:02,165 INFO    MainThread:27580 [wandb_setup.py:_flush():71] setting env: {'api_key': '***REDACTED***'}
+2022-01-18 01:00:02,166 INFO    MainThread:27580 [wandb_setup.py:_flush():71] setting login settings: {}
+2022-01-18 01:00:02,166 INFO    MainThread:27580 [wandb_init.py:_log_setup():371] Logging user logs to c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_010002-csm705m3\logs\debug.log
+2022-01-18 01:00:02,166 INFO    MainThread:27580 [wandb_init.py:_log_setup():372] Logging internal logs to c:\Users\rufai\Downloads\assignment-instructions\assignment\wandb\run-20220118_010002-csm705m3\logs\debug-internal.log
+2022-01-18 01:00:02,166 INFO    MainThread:27580 [wandb_init.py:_jupyter_setup():321] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000016C10048970>
+2022-01-18 01:00:02,167 INFO    MainThread:27580 [wandb_init.py:init():404] calling init triggers
+2022-01-18 01:00:02,167 INFO    MainThread:27580 [wandb_init.py:init():409] wandb.init called with sweep_config: {}
+config: {}
+2022-01-18 01:00:02,167 INFO    MainThread:27580 [wandb_init.py:init():460] starting backend
+2022-01-18 01:00:02,167 INFO    MainThread:27580 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-01-18 01:00:02,171 INFO    MainThread:27580 [backend.py:ensure_launched():216] starting backend process...
+2022-01-18 01:00:02,290 INFO    MainThread:27580 [backend.py:ensure_launched():221] started backend process with pid: 28968
+2022-01-18 01:00:02,291 INFO    MainThread:27580 [wandb_init.py:init():469] backend started and connected
+2022-01-18 01:00:02,303 INFO    MainThread:27580 [wandb_run.py:_label_probe_notebook():911] probe notebook
+2022-01-18 01:00:02,303 INFO    MainThread:27580 [wandb_run.py:_label_probe_notebook():921] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-01-18 01:00:02,303 INFO    MainThread:27580 [wandb_init.py:init():533] updated telemetry
+2022-01-18 01:00:02,306 INFO    MainThread:27580 [wandb_init.py:init():563] communicating current version
+2022-01-18 01:00:04,650 INFO    MainThread:27580 [wandb_init.py:init():568] got version response 
+2022-01-18 01:00:04,650 INFO    MainThread:27580 [wandb_init.py:init():578] communicating run to backend with 30 second timeout
+2022-01-18 01:00:04,889 INFO    MainThread:27580 [wandb_init.py:init():606] starting run threads in backend
+2022-01-18 01:00:09,898 INFO    MainThread:27580 [wandb_run.py:_console_start():1810] atexit reg
+2022-01-18 01:00:09,899 INFO    MainThread:27580 [wandb_run.py:_redirect():1684] redirect: SettingsConsole.WRAP
+2022-01-18 01:00:09,900 INFO    MainThread:27580 [wandb_run.py:_redirect():1721] Wrapping output streams.
+2022-01-18 01:00:09,903 INFO    MainThread:27580 [wandb_run.py:_redirect():1745] Redirects installed.
+2022-01-18 01:00:09,903 INFO    MainThread:27580 [wandb_init.py:init():633] run started, returning control to user process
+2022-01-18 01:00:10,568 INFO    MainThread:27580 [wandb_run.py:finish():1457] finishing run ruphai/Oil Palm Classification/csm705m3
+2022-01-18 01:00:10,568 INFO    MainThread:27580 [jupyter.py:save_history():429] not saving jupyter history
+2022-01-18 01:00:10,568 INFO    MainThread:27580 [jupyter.py:save_ipynb():374] not saving jupyter notebook
+2022-01-18 01:00:10,568 INFO    MainThread:27580 [wandb_init.py:_jupyter_teardown():303] cleaning up jupyter logic
+2022-01-18 01:00:10,568 INFO    MainThread:27580 [wandb_run.py:_atexit_cleanup():1780] got exitcode: 0
+2022-01-18 01:00:10,570 INFO    MainThread:27580 [wandb_run.py:_restore():1752] restore
+2022-01-18 01:00:16,441 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:21,559 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:26,674 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:31,801 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:36,924 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:42,040 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:47,162 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:52,280 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:00:57,388 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:02,506 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:07,621 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:12,745 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:17,862 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:22,974 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:28,088 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:33,203 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:38,327 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:43,439 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:48,554 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:53,676 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:01:58,788 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:03,897 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:09,018 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:14,140 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:19,253 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:24,373 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:29,487 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:34,609 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:39,725 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:44,837 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:49,960 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:02:55,074 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:00,191 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:05,307 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:10,429 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:15,549 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:20,660 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:25,779 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:30,900 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:36,016 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:41,138 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:46,257 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:51,370 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:03:56,483 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:01,599 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:06,710 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:11,827 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:16,948 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:22,059 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:27,184 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:32,300 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:37,420 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:42,535 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:47,658 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:52,776 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:04:57,897 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:03,014 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:08,130 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:13,244 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:18,361 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:23,491 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:28,611 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:33,721 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:38,838 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:43,966 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:49,078 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:54,199 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:05:59,320 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:06:04,445 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:06:09,559 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:06:14,673 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:06:19,781 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: None
+2022-01-18 01:06:21,394 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235734159
+  total_bytes: 235735041
+}
+
+2022-01-18 01:06:21,703 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 1
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235735041
+  total_bytes: 235735041
+}
+
+2022-01-18 01:06:22,391 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 5
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235735041
+  total_bytes: 235758429
+}
+
+2022-01-18 01:06:22,503 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235735041
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:22,612 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235735041
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:22,720 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235757946
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:22,831 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235757973
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:22,939 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758049
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,052 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758049
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,164 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758049
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,271 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758049
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,381 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758456
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,487 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758456
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,595 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758456
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,701 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758456
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:23,813 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758456
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:24,401 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758456
+  total_bytes: 235758456
+}
+
+2022-01-18 01:06:24,743 INFO    MainThread:27580 [wandb_run.py:_wait_for_finish():1912] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  artifact_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 235758456
+  total_bytes: 235758456
+}
+local_info {
+}
+
+2022-01-18 01:06:26,306 INFO    MainThread:27580 [wandb_run.py:_append_files():2180] logging synced files

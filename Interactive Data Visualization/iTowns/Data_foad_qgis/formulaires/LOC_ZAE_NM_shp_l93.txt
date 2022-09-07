@@ -1,0 +1,76 @@
+
+================================================
+TITRE DU JEU DE DONNEES
+================================================
+
+Localisation des Zones d'Activité Economique (ZAE) de Nantes Métropole
+
+================================================
+DESCRIPTION
+================================================
+Les données présentent l'emprise géographique des Zones d'Activité Economique (ZAE) de
+Nantes Métropole. De plus, les vocations de chaque zone sont précisées.
+
+Thèmes 							: Economie
+
+================================================
+INFORMATIONS TECHNIQUES
+================================================
+
+Date de dernière mise à jour    : 27/01/2014
+Fréquence de mise à jour 		: Annuelle
+Précision géométrique           : 5 mètres
+
+Système de projection d'origine : NTF Lambert II (urn:ogc:def:crs:EPSG:6.11:27562) (urn:ogc:def:crs:EPSG:6.11)
+Type de géométrie               : ligne
+Couverture spatiale (wgs84)     : limite nord 47.353296, limite sud 47.101919
+                                  limite ouest -1.921802, limite est -1.358542
+Couverture Temporelle : Sans objet 
+
+Derniere mise à jour technique	:
+
+	Date : 27/01/2014
+	Nature de la modification : Mise à jour - janvier 2014
+	Description de la modification : Mise à jour annuelle
+
+================================================
+ATTRIBUTS
+================================================
+
+
+_IDOBJ              : Identifiant de la zone
+LIBELLE             : Nom de la zone
+COMMUNE             : Commune sur laquelle la zone est située
+SURFACE_TOTALE      : Superficie calculée de la ZAE (exprimée en hectares)
+VOCATION_PRINCIPALE : Vocation principale de la ZAE. Les valeurs possibles pour la vocation sont : Artisanat, Commerce, Industrie/Logistique, PME/PMI, Technologique, Tertiaire
+VOCATION_SECONDAIRE : Vocation secondaire de la ZAE
+ 
+
+================================================
+CONTACT
+================================================
+
+Pour toute demande d'information ou remarque, 
+merci de passer par le forum du site http://data.nantes.fr
+
+================================================
+INFORMATIONS LEGALES
+================================================
+
+
+Propriétaire : Nantes Métropole
+
+Gestionnaire : Nantes Métropole
+
+Diffuseur	 : Nantes Métropole
+
+Licence      : Open Database License (ODbL)
+
+================================================
+SIGNATURES DES FICHIERS
+================================================
+
+LOC_ZAE_NM.dbf (md5) : 81e603b147c0ca32eabd9466534c4e0c
+LOC_ZAE_NM.prj (md5) : f6d4872436dd3f0336bd65be52e7e522
+LOC_ZAE_NM.shp (md5) : 48286270e59ceceeebafec4539cc74d5
+LOC_ZAE_NM.shx (md5) : 2dfd261b26956ff111eb80a32894cc65

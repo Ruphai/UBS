@@ -1,0 +1,43 @@
+# untracked folders and files
+files/*
+
+# compiled sources
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.weights
+
+# packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.mat
+*.tif
+*.grd
+*.grd.hdr
+*.hgt
+*.omd
+*.hdf5
+*/../*.hdf5
+*.b3dm
+*.pnts
+*.vrt
+*.prj
+*.SHP
+*.MIF
+*.SHX
+*.AVL
+*.DBF
+*.LYR
+*.MID
+*.asc
+*.xml
+*.pdf

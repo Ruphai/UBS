@@ -1,0 +1,28 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-01-17T23:32:41.470036",
+    "startedAt": "2022-01-17T23:32:34.923251",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9011",
+        "--control=9009",
+        "--hb=9008",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"c0988387-beb6-4402-93de-1f475a837f7e\"",
+        "--shell=9010",
+        "--transport=\"tcp\"",
+        "--iopub=9012",
+        "--f=C:\\Users\\rufai\\AppData\\Local\\Temp\\tmp-18372yS980m5YRkQa.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "Rufai",
+    "username": "rufai",
+    "executable": "C:\\Users\\rufai\\anaconda3\\python.exe"
+}

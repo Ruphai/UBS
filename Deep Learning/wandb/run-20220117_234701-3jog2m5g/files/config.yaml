@@ -1,0 +1,86 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.9
+    framework: lightning
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    m:
+    - 1: trainer/global_step
+      6:
+      - 3
+    - 1: Train_loss_step
+      5: 1
+      6:
+      - 1
+    - 1: Acc_train
+      5: 1
+      6:
+      - 1
+    - 1: Train_F1
+      5: 1
+      6:
+      - 1
+    - 1: Val_FBeta
+      5: 1
+      6:
+      - 1
+    - 1: epoch
+      5: 1
+      6:
+      - 1
+    - 1: Val_loss
+      5: 1
+      6:
+      - 1
+    - 1: Acc_val
+      5: 1
+      6:
+      - 1
+    - 1: Val_F1
+      5: 1
+      6:
+      - 1
+    - 1: Val_Fbeta
+      5: 1
+      6:
+      - 1
+    - 1: Train_loss_epoch
+      5: 1
+      6:
+      - 1
+    - 1: Acc_test
+      5: 1
+      6:
+      - 1
+    - 1: Test_F1
+      5: 1
+      6:
+      - 1
+    - 1: Test_FBeta
+      5: 1
+      6:
+      - 1
+    python_version: 3.8.10
+    start_time: 1642459621
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      2:
+      - 1
+      - 5
+      - 9
+      3:
+      - 2
+      - 7
+      - 13
+      4: 3.8.10
+      5: 0.12.9
+      8:
+      - 1
+      - 3
+      - 5
