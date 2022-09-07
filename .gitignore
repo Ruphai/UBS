@@ -1,8 +1,7 @@
 # untracked folders and files
-files/
 files/Computer_vision/
 files/CNL_scripts.zip
-
+files/
 # compiled sources
 *.com
 *.class
