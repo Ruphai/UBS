@@ -1,10 +1,12 @@
 # untracked folders and files
-Computer Vision/Image Analysis/Semantic Segmentation Rufai Balogun/unet_final
-Computer Vision/Image Processing/Gonzalez, Rafael C._ Woods, Richard E. - Digital image processing (2018, Pearson) - libgen.lc.pdf
-Computer Vision/Image Analysis/Deep Learning for Image Analysis/Deep_Learning_for_Raster_Data_Rufai_Balogun.ipynb
-Computer Vision/Image Analysis/yolov3-spp-munich_best.weights
-Computer Vision/Image Analysis/Deep Learning for Image Analysis/landCover.hdf5
-Computer Vision/Image Analysis/Semantic Segmentation Rufai Balogun/segnet_final
+"Computer Vision/Image Analysis/Semantic Segmentation Rufai Balogun/unet_final"
+"Computer Vision/Image Processing/Gonzalez, Rafael C._ Woods, Richard E. - Digital image processing (2018, Pearson) - libgen.lc.pdf"
+"Computer Vision/Image Analysis/Deep Learning for Image Analysis/Deep_Learning_for_Raster_Data_Rufai_Balogun.ipynb"
+"Computer Vision/Image Analysis/yolov3-spp-munich_best.weights"
+"Computer Vision/Image Analysis/Deep Learning for Image Analysis/landCover.hdf5"
+"Computer Vision/Image Analysis/Semantic Segmentation Rufai Balogun/segnet_final"
+"Computer Vision/Image Processing/Gonzalez, Rafael C._ Woods, Richard E. - Digital image processing (2018, Pearson) - libgen.lc.pdf"
+
 
 # compiled sources
 *.com
