@@ -15,6 +15,7 @@
 *.exe
 *.o
 *.so
+*.weights
 
 
 # packages
@@ -33,6 +34,7 @@
 *.hgt
 *.omd
 *.hdf5
+*/../*.hdf5
 *.b3dm
 *.pnts
 *.vrt
